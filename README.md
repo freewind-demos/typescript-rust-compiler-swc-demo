@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
+TypeScript Rust Compiler "swc" Demo
 ===========================
+
+"swc" 是用Rust写的一个javascript/typescript compiler，其特点是速度非常快
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-

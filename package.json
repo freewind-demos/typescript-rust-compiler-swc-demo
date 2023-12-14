@@ -1,12 +1,12 @@
 {
-  "scripts": {
-    "demo": "swc ./hello.ts -o ./bundle.js && node ./bundle.js"
-  },
-  "devDependencies": {
-    "@swc/cli": "0.1.32",
-    "@swc/core": "1.2.45",
-    "@types/node": "13.7.7",
-    "ts-node": "8.6.2",
-    "typescript": "3.8.3"
-  }
+    "scripts": {
+        "start": "swc ./hello.ts -o ./bundle.js && node ./bundle.js"
+    },
+    "devDependencies": {
+        "@swc/cli": "0.1.32",
+        "@swc/core": "1.2.45",
+        "@types/node": "13.7.7",
+        "ts-node": "8.6.2",
+        "typescript": "3.8.3"
+    }
 }
